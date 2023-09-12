@@ -5,6 +5,8 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import EmailIcon from '@mui/icons-material/Email';
+
 import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
@@ -100,9 +102,12 @@ function Footer() {
         <SocialMediaIcons>
           <SocialMediaIcon  id="contact-linkedin" href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon  href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
+          <SocialMediaIcon id="contact-email" href={Bio.email} target="display"><EmailIcon /></SocialMediaIcon>
+
           <SocialMediaIcon id="contact-github" href={Bio.github} target="display"><GitHubIcon /></SocialMediaIcon>
 
         </SocialMediaIcons>
+        
         <Copyright>
           &copy; 2023 Kulsoom Rasheed. All rights reserved.
         </Copyright>
