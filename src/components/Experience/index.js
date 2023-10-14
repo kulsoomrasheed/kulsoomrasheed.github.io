@@ -9,7 +9,8 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import ExperienceCard from '../Cards/ExperienceCard';
 import { experiences } from '../../data/constants';
-
+import GitHubCalendar from "react-github-calendar"
+import { img } from '@mui/icons-material';
 const Container = styled.div`
     display: flex;
     flex-direction: column;
@@ -77,7 +78,38 @@ const TimelineSection = styled.div`
 const index = () => {
     return (
         <Container id="experience">
-          
+         <Title>Github Calender</Title>
+       <Wrapper>
+                <Title><img src='https://scontent.xx.fbcdn.net/v/t1.15752-9/370213373_792259139367366_9170705927947989379_n.png?_nc_cat=102&ccb=1-7&_nc_sid=510075&_nc_ohc=nzBs-CxC2eYAX8ZDbzC&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdT0-JTqA7mWvdXbwulLa4T_XzIZ28G93q6wVlyc4Ztfqg&oe=65520A72'/>
+                    </Title>     </Wrapper>
+                    <Wrapper>
+                        <Title>
+                        Github Stats
+                        </Title>
+                        <img id="github-stats-card" borderRadius = '20px' src = 'https://github-readme-stats.vercel.app/api?username=kulsoomrasheed&theme=blue-purple&hide_border=true&include_all_commits=true&count_private=true'></img>
+                        <Title>
+                        Github Streaks
+                        </Title>
+                        <img id="github-streak-stats" borderRadius = '20px' src = 'https://github-readme-streak-stats.herokuapp.com/?user=kulsoomrasheed&theme=blue-green&hide_border=true'></img>
+         
+           <Title>
+           Github Languages
+           </Title>
+            <img id="github-top-langs" borderRadius = '20px' src = 'https://github-readme-stats.vercel.app/api/top-langs/?username=kulsoomrasheed&theme=blue-green&hide_border=true&include_all_commits=true&count_private=true&layout=compact'></img>
+            
+           <Title>
+            Github Trophies
+            </Title>
+            <img src = 'https://user-imgs.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif'></img>
+
+              
+<img src = 'https://github-profile-trophy.vercel.app/?username=kulsoomrasheed&theme=radical&no-frame=false&no-bg=false&margin-w=4'/>
+
+
+<img src = 'https://user-imgs.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif'></img>
+
+</Wrapper>
+
         </Container>
     )
 }
