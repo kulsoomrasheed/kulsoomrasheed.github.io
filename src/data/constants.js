@@ -407,8 +407,8 @@ export const projects = [
     "Open AI API",
   ],
     category: "android app",
-    github: "https://github.com/rishavchanda/Buckoid-Android-App",
-    webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+    github: "https://github.com/kulsoomrasheed/Shayri-Generator-App",
+    webapp: "https://kulsoom-shayri-app.netlify.app/",
   },
   
 ];
