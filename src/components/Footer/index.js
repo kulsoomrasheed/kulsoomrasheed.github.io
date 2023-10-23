@@ -108,7 +108,7 @@ function Footer() {
 
         </SocialMediaIcons>
       
-        <Logo  id="contact-phone">+91-9305167223</Logo>
+        
         <Logo id="contact-email"><EmailIcon/>
 rasheedamaan111@gmail.com        </Logo>
   <Copyright>
@@ -121,3 +121,5 @@ rasheedamaan111@gmail.com        </Logo>
 }
 
 export default Footer;
+
+//<Logo  id="contact-phone">+91-9305167223</Logo>
