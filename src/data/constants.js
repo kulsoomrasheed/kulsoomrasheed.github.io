@@ -9,7 +9,7 @@ export const Bio = {
   github: "https://github.com/kulsoomrasheed",
   email:'rasheedamaan111@gmail.com',
   resume:
-    "https://drive.google.com/file/d/1_UUWxK8ycT9ZfKbvEQDnpxD15jMY2ISg/view?usp=sharing",
+    "https://drive.google.com/file/d/1XaDJSscAXuzBnRqJ9fXB0I9SNG_nXss4/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/kulsoom-rasheed-a5b5a0278/",
   insta: "https://www.instagram.com/kulsoomrasheed20/",
 };
@@ -252,9 +252,9 @@ export const education = [
   {    id: 0,
     img: "https://media.licdn.com/dms/image/C560BAQE4UC9Z_k3c7A/company-logo_200_200/0/1579422507409?e=1692230400&v=beta&t=HJssPsrwwkAJAsvFiVIYPdM8GzUuuSK5YlATKgLx3Bc",
     school: "Masai School, Bangaluru",
-    date: "Aug 2022 - Aug 2023 (Present)",
+    date: "Aug 2022 - Oct 2023 (Present)",
     grade: "8.71 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+    desc: "Having dedicated over 1200 hours to full-stack development and 500 hours to mastering data structures and algorithms, I am a MERN developer with a proven track record of delivering exceptional results. My journey is enriched by a portfolio of diverse individual and collaborative projects, further complemented by the invaluable experience and industry-relevant skills acquired at Masai School. I am ready to contribute immediately, offering both expertise and a relentless commitment to excellence.",
     degree: "Full Stack Web Developement",
   },
   {    id: 1,
@@ -262,7 +262,7 @@ export const education = [
     school: "Shia P.G College, Lucknow",
     date: "July 2019 - Aug 2022",
     grade: "8.71 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+    desc: "My Bachelor of Commerce degree equipped me with a strong foundation in business and finance, which complements my technical expertise as a MERN developer. This dual skill set allows me to approach challenges with a well-rounded perspective, ensuring that I not only develop robust solutions but also understand their broader impact on business operations. My academic background enhances my ability to bridge the gap between technology and business needs, making me a valuable asset to any project or team.",
     degree: "Bachelor of Commerce (B.Com.)",
   },
   {

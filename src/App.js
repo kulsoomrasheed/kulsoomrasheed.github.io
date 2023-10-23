@@ -45,7 +45,6 @@ function App() {
             
             <Education />
             <Experience />
-                        <Contact />
           </Wrapper>
           <Footer />
           {openModal.state &&
