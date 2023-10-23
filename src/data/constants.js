@@ -109,7 +109,7 @@ export const skills = [
       {
         name: "Vercel",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+          "data:image/png;base64,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",
       },
       {
         name: "Netlify",
@@ -125,7 +125,17 @@ export const skills = [
         name: "Postman",
         image:
           "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+      },  {
+        name: "Render",
+        image:
+          "https://dashboard.render.com/static/media/logo-redesign-02-word-dark.0811da26fe4b1f9a9b6c642d91bbcf73.svg",
       },
+      {
+        name: "Swiper",
+        image:
+          "https://swiperjs.com/images/swiper-logo.svg",
+      },
+   
    
      
     ],
@@ -277,42 +287,59 @@ export const education = [
 export const projects = [
   {
     id: 9,
-    title: "Samajhdaar.com",
+    title: "Fairtable (Airtable Clone)",
     date: "Jun 2023 - Jul 2023",
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+    "My Fairtable.com clone project is a testament to my proficiency in web development. Built independently with HTML, CSS, and JavaScript, I successfully recreated the functionality of Airtable.com. The project features user-friendly login and sign-up options, local storage for data management, and a 'Contact Sales' feature. It demonstrates my capability to create user-centric, interactive web applications, enhancing productivity and data management for businesses."
+    ,
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "Fairtable.png",
     tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify.duckdns.org",
+    github: "https://github.com/kulsoomrasheed/wicked-oranges-6379",
+    webapp: "https://jade-cuchufli-871278.netlify.app/",
   },
-
+  {
+    id: 1,
+    title: "Nykaa (Clone)",
+    date: "Oct 2023 - Present",
+    description:
+      "My Nykaa.com clone project is a showcase of my UI design and development skills. I meticulously recreated Nykaa's user experience with features like a vast product catalog, a seamless shopping cart, and user authentication for a personalized shopping journey. Leveraging the MERN stack, React Router, Chakra UI, and Redux, the project is responsive on all screen sizes. It reflects my dedication to creating user-centric, responsive, and visually appealing e-commerce interfaces",
+    image:
+      "nykaaClone.png",
+    tags: [
+      "React Js",
+      'Redux',
+      "MongoDb",
+      "Mongoose",
+      "Node Js",
+      "Express Js",
+      "Chakra UI",
+      "MUI"
+      ,"Axios",
+      'Swiper'
+    ],
+    category: "E-commerce app",
+    github: "https://github.com/kulsoomrasheed/nykaaClone",
+    webapp: "https://nykaa-clone-by-kulsoom.netlify.app/",
+  },
   {
     id: 0,
-    title: "Ebay.com",
+    title: "SmartCart (e-Bay Clone)",
     date: "Apr 2023 - May 2023",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+    "Our collaborative project, an eBay clone, shows our team's ability to replicate core e-commerce functions in a short time. This project involved five members and was completed in just 4-5 days. We successfully recreated the essence of eBay's online marketplace, including features like product displays, price negotiations, and safe, hassle-free transactions. Our commitment to detail and teamwork shines through this project, offering a user-friendly and visually appealing shopping experience.",
     image:
       "https://user-images.githubusercontent.com/110609653/229442412-bbb0b9be-09ee-4afb-becc-833f072924fb.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
+    tags: ["React Js", "Axios","MongoDb", , "Node Js", "Express Js", "Redux"],
+    category: "E-Commerce app",
+    github: "https://github.com/TejasPedge/kaput-boundary-7997",
+    webapp: "https://smart-cart-tejaspedge.vercel.app/",
     member: [
       {
         name: "Kulsoom Rasheed",
@@ -328,38 +355,19 @@ export const projects = [
       },
     ],
   },
-  {
-    id: 1,
-    title: "Fairtable",
-    date: "Oct 2022 - Present",
-    description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-    tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
-    ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
-  },
+  
   {
     id: 2,
     title: "Samajdaar.com",
     date: "Jan 2023 - Mar 2023",
     description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
+    "Our collaborative project, a Bewakoof.com clone, showcases our team's ability to replicate essential e-commerce functionalities swiftly. In just 4-5 days, we recreated the essence of Bewakoof's online fashion platform. Our project includes product listings, simple checkout, and a seamless shopping experience. With a commitment to detail and teamwork, our clone offers a user-friendly and visually appealing platform for fashion enthusiasts.",
     image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
+      "SamajhdaarLogo.png",
+    tags: ["HTML", "CSS", "JavaScript"],
+    category: "E- Commerce",
     github: "https://github.com/roypromax/Samajhdaar.com",
-    webapp: "https://brain-tumor.netlify.app/",
+    webapp: "https://legendary-marzipan-9a57ca.netlify.app/",
     member:  [
 
       {
@@ -383,97 +391,26 @@ export const projects = [
   {
 
     id: 3,
-    title: "Buckoid",
+    title: "Shayri Generator App",
     date: "Dec 2021 - Apr 2022",
     description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
+      "Introducing my Shayari Generator app, a harmonious blend of technology and artistry. This application uses MongoDB, Express, Node, and React, adorned with the elegance of Chakra UI. Create and explore the world of poetic expression effortlessly. Experience the beauty of words with a touch of innovation.",
     image:
-      "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-    tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
+      "shayriGen.png",
+    tags: [ "React Js",
+    'Redux',
+    "MongoDb",
+    "Mongoose",
+    "Node Js",
+    "Express Js",
+    "Chakra UI",
+    "Open AI API",
+  ],
     category: "android app",
     github: "https://github.com/rishavchanda/Buckoid-Android-App",
     webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
   },
-  {
-    id: 10,
-    title: "Job Finding App",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: ["React Native", "JavaScript", "Axios"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Job-finder-App",
-    webapp: "https://github.com/rishavchanda/Job-finder-App",
-  },
-  {
-    id: 4,
-    title: "Whatsapp Clone",
-    date: "Jul 2021",
-    description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-    webapp: "https://whatsapp-clone-rishav.web.app",
-  },
-  {
-    id: 5,
-    title: "Todo Web App",
-    date: "Jun 2021",
-    description:
-      "A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-    image:
-      "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Todo-Web-App",
-    webapp: "https://rishav-react-todo.netlify.app/",
-  },
-
-  {
-    id: 6,
-    title: "Breaking Bad",
-    date: "Jun 2021",
-    description:
-      "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-    image:
-      "https://camo.githubusercontent.com/cd07010cbeb90cb1b43a5d6162784326aef02210ef7d41a0f9ae043b3e392378/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-    tags: ["React Js", "API", "Axios", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Breaking-Bad",
-    webapp: "https://breaking-bad-webapp.netlify.app",
-  },
-  {
-    id: 7,
-    title: "Quiz App",
-    date: "Dec 2020 - Jan 2021",
-    description:
-      "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-    image:
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-    tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Quiz-Earn",
-    webapp: "https://github.com/rishavchanda/Quiz-Earn",
-  },
-  {
-    id: 8,
-    title: "Face Recognition",
-    date: "Jan 2021",
-    description:
-      "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-    image:
-      "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    
-  },
+  
 ];
 
 export const TimeLineData = [

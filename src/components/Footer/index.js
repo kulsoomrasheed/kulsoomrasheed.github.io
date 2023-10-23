@@ -102,16 +102,19 @@ function Footer() {
         <SocialMediaIcons>
           <SocialMediaIcon  id="contact-linkedin" href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon  href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
-          <SocialMediaIcon id="contact-email" href={Bio.email} target="display"><EmailIcon /></SocialMediaIcon>
+      
 
           <SocialMediaIcon id="contact-github" href={Bio.github} target="display"><GitHubIcon /></SocialMediaIcon>
 
         </SocialMediaIcons>
-        
-        <Copyright>
+      
+        <Logo  id="contact-phone">+91-9305167223</Logo>
+        <Logo id="contact-email"><EmailIcon/>
+rasheedamaan111@gmail.com        </Logo>
+  <Copyright>
           &copy; 2023 Kulsoom Rasheed. All rights reserved.
         </Copyright>
-
+   
       </FooterWrapper>
     </FooterContainer>
   );
