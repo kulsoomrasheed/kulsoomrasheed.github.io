@@ -80,7 +80,7 @@ const index = () => {
         <Container id="experience">
          <Title>Github Calender</Title>
        <Wrapper>
-                <Title class="react-activity-calendar"><img  src='https://scontent.xx.fbcdn.net/v/t1.15752-9/370213373_792259139367366_9170705927947989379_n.png?_nc_cat=102&ccb=1-7&_nc_sid=510075&_nc_ohc=nzBs-CxC2eYAX8ZDbzC&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdT0-JTqA7mWvdXbwulLa4T_XzIZ28G93q6wVlyc4Ztfqg&oe=65520A72'/>
+                <Title className="react-activity-calendar"><img  src='https://scontent.xx.fbcdn.net/v/t1.15752-9/370213373_792259139367366_9170705927947989379_n.png?_nc_cat=102&ccb=1-7&_nc_sid=510075&_nc_ohc=nzBs-CxC2eYAX8ZDbzC&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdT0-JTqA7mWvdXbwulLa4T_XzIZ28G93q6wVlyc4Ztfqg&oe=65520A72'/>
                     </Title>     </Wrapper>
                     <Wrapper>
                         <Title>

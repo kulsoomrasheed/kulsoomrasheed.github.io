@@ -34,7 +34,7 @@ function App() {
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router >
         <Navbar />
-        <Body>
+        <Body  id="home">
           <HeroSection />
           <Wrapper>
             <Skills />
