@@ -39,7 +39,7 @@ const HeroSection = () => {
                         </TextLoop>
                         <SubTitle id="user-detail-intro">{Bio.description}</SubTitle>
                        <div style={{display:'flex', gap:10, margin:4}}>
-                       <ResumeButton href={Bio.resume} className='nav-link resume' id="resume-link-2" target='display'>Check Resume</ResumeButton>
+                       <ResumeButton href={Bio.resume} className='nav-link resume' id="resume-link-1" target='display'>Check Resume</ResumeButton>
                         <ResumeButton onClick={handleDownload}  id="resume-button-2">Download Resume</ResumeButton>
                        </div>
 
