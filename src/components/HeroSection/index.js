@@ -6,6 +6,16 @@ import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
 
 const HeroSection = () => {
+
+        // Create an invisible anchor element
+        const handleDownload = () => {
+            const link = document.createElement('a');
+            link.href = 'KulsoomRasheed_Resume.pdf';
+            link.download = 'KulsoomRasheed_Resume.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+      };
     return (
         <div id="about">
             <HeroContainer>
@@ -28,12 +38,16 @@ const HeroSection = () => {
                             </Span>
                         </TextLoop>
                         <SubTitle id="user-detail-intro">{Bio.description}</SubTitle>
-                        <ResumeButton href={Bio.resume} id="resume-link-2" target='display'>Check Resume</ResumeButton>
+                       <div style={{display:'flex', gap:10, margin:4}}>
+                       <ResumeButton href={Bio.resume} className='nav-link resume' id="resume-link-2" target='display'>Check Resume</ResumeButton>
+                        <ResumeButton onClick={handleDownload}  id="resume-button-2">Download Resume</ResumeButton>
+                       </div>
+
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">
 
-                        <Img src={HeroImg} alt="hero-image"  class="home-img"/>
+                        <Img src={HeroImg} alt="hero-image"  className="home-img"/>
                     </HeroRightContainer>
                 </HeroInnerContainer>
 
