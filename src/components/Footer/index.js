@@ -90,7 +90,7 @@ const Copyright = styled.p`
 
 function Footer() {
   return (
-    <FooterContainer>
+    <FooterContainer id="contact">
       <FooterWrapper>
         <Logo>Kulsoom Rasheed</Logo>
         <Nav>

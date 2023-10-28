@@ -17,7 +17,7 @@ const HeroSection = () => {
             document.body.removeChild(link);
       };
     return (
-        <div id="about">
+        <div id="about" className="about section">
             <HeroContainer>
                 <HeroBg>
                     <HeroBgAnimation />
@@ -39,8 +39,8 @@ const HeroSection = () => {
                         </TextLoop>
                         <SubTitle id="user-detail-intro">{Bio.description}</SubTitle>
                        <div style={{display:'flex', gap:10, margin:4}}>
-                       <ResumeButton href={Bio.resume} className='nav-link resume' id="resume-link-2" target='display'>Check Resume</ResumeButton>
-                        <ResumeButton onClick={handleDownload}  id="resume-button-1">Download Resume</ResumeButton>
+                       <ResumeButton href={Bio.resume} className='nav-link resume' id="resume-button-2" target='display'>Check Resume</ResumeButton>
+                        <ResumeButton onClick={handleDownload}  className='nav-link resume' id="resume-button-1">Download Resume</ResumeButton>
                        </div>
 
                     </HeroLeftContainer>
