@@ -4,6 +4,7 @@ export const Bio = {
     "Full Stack Developer",
     "MERN Stack Developer"
   ],
+  about:"I am a motivated and adaptable individual, always eager to embrace new challenges. With an insatiable passion for learning, I am dedicated to delivering high-quality results. My positive attitude and growth mindset make me well-prepared to make a meaningful contribution and achieve great things. As a skilled MERN developer, I bring expertise in MongoDB, Express, React, and Node.js, which enhances my ability to tackle tech-driven projects with enthusiasm and innovation.",
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/kulsoomrasheed",

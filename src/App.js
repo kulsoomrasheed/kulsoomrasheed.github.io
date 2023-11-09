@@ -30,12 +30,20 @@ function App() {
   const [darkMode, setDarkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   console.log(openModal)
+  useEffect(()=>{
+    document.title = 'Kulsoom Rasheed';
+
+  },[])
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router >
         <Navbar />
         <Body  id="home">
           <HeroSection />
+          <Wrapper>
+            <About/>
+          </Wrapper>
+
           <Wrapper>
             <Skills />
            
