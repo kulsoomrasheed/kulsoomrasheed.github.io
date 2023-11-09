@@ -14,7 +14,7 @@ const Navbar = () => {
       <NavbarContainer>
         <NavLogo className="nav-link home" to='/'>
           <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+            <DiCssdeck size="3rem" /> <Span>Kulsoom Rasheed</Span>
           </a>
         </NavLogo>
         <MobileIcon>
