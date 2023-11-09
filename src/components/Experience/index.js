@@ -100,13 +100,11 @@ const index = () => {
            <Title>
             Github Trophies
             </Title>
-            <img src = 'https://user-imgs.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif'></img>
+           
 
               
 <img src = 'https://github-profile-trophy.vercel.app/?username=kulsoomrasheed&theme=radical&no-frame=false&no-bg=false&margin-w=4'/>
 
-
-<img src = 'https://user-imgs.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif'></img>
 
 </Wrapper>
 

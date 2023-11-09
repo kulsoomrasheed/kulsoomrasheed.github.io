@@ -17,7 +17,7 @@ const About = () => {
                      <div style={{margin:15}}>
                      <Title id="user-detail-name">About</Title>
                        </div>
-                       <SubTitle id="user-detail-intro">{Bio.about}</SubTitle>
+                       <SubTitle id="user-detail-intro">{Bio.description}</SubTitle>
                      
                      
 
