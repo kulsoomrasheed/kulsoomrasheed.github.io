@@ -12,7 +12,7 @@ export const Bio = {
   github: "https://github.com/kulsoomrasheed",
   email:'rasheedamaan111@gmail.com',
   resume:
-    'https://drive.google.com/file/d/1jmSfIrSdU3kgktzTLk76tailhr2pio9O/view?usp=sharing',
+    'https://drive.google.com/file/d/1in_mHRQzf_FgfHj6xoqLKlc_hqQ57gG8/view?usp=sharing',
   linkedin: "https://www.linkedin.com/in/kulsoom-rasheed-a5b5a0278/",
   insta: "https://www.instagram.com/kulsoomrasheed20/",
 };
@@ -174,7 +174,7 @@ export const experiences = [
     role: "Frontend Engineer",
     company: "Galific Solutions",
     date: "June 2024 - March 2025",
-    desc: "Built and maintained full-stack apps like an AI content creator, AI medical appointment app, and         Autonomous Digital Marketer. Developed Chrome extensions for scraping and UI injection. Created an app to track clothing site data via extension. Optimized app speed, fixed UI bugs, integrated auth systems, and built responsive UIs using React, Redux, Node.js, MongoDB, Chakra UI, and MUI.",
+    desc: "Built and maintained full-stack apps like an AI content creator, AI medical appointment app, and    Autonomous Digital Marketer. Developed Chrome extensions for scraping and UI injection. Created an app to track clothing site data via extension. Optimized app speed, fixed UI bugs, integrated auth systems, and built responsive UIs using React, Redux, Node.js, MongoDB, Chakra UI, and MUI.",
     skills: [
       "ReactJS",
       "Redux",
@@ -183,9 +183,7 @@ export const experiences = [
       "HTML",
       "CSS",
       "JavaScript",
-      "TypeScript",
       "Node Js",
-      "Next Js",
       'Redux Persist',
       ' Redux',
       ' Framer-motion',
