@@ -17,7 +17,7 @@ const HeroSection = () => {
             document.body.removeChild(link);
       };
     return (
-        <div id="about" className="about section">
+        <div className="about section">
             <HeroContainer>
                 <HeroBg>
                     <HeroBgAnimation />
@@ -38,7 +38,7 @@ const HeroSection = () => {
                             </Span>
                         </TextLoop>
                         <SubTitle id="user-detail-intro"></SubTitle>
-                       <div style={{display:'flex', gap:10, margin:4}}>
+                       <div style={{display:'flex', gap:15, margin:4}}>
                        <ResumeButton href={Bio.resume} className='nav-link resume' id="resume-link-2" target='display'>Check Resume</ResumeButton>
                         <ResumeButton onClick={handleDownload}  className='nav-link resume' id="resume-link-1">Download Resume</ResumeButton>
                        </div>
@@ -47,7 +47,7 @@ const HeroSection = () => {
 
                     <HeroRightContainer id="Right">
 
-                        <Img src={HeroImg} alt="hero-image"  className="home-img"/>
+                        <Img src="https://kulsoomrasheed.github.io/pic1.png" alt="hero-image"  className="home-img"/>
                     </HeroRightContainer>
                 </HeroInnerContainer>
 

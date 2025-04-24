@@ -74,7 +74,7 @@ const TimelineSection = styled.div`
 
 const index = () => {
   return (
-    <Container id="contact">
+    <Container id="experience">
       {/* <Title>Github Calender</Title>
       <Wrapper>
         <Title className="react-activity-calendar">
@@ -107,7 +107,7 @@ const index = () => {
         <img src="https://github-profile-trophy.vercel.app/?username=kulsoomrasheed&theme=radical&no-frame=false&no-bg=false&margin-w=4" />
       </Wrapper> */}
       <Wrapper>
-        <Title>Experiece</Title>
+        <Title>Experience</Title>
        {experiences?.map((el,i)=>(
         <ExperienceCard experience={el} />
        ))}

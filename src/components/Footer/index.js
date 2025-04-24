@@ -1,13 +1,14 @@
-import styled from 'styled-components';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import GitHubIcon from '@mui/icons-material/GitHub';
+import styled from "styled-components";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
-import TwitterIcon from '@mui/icons-material/Twitter';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import EmailIcon from '@mui/icons-material/Email';
+import TwitterIcon from "@mui/icons-material/Twitter";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import EmailIcon from "@mui/icons-material/Email";
 
-import { Bio } from '../../data/constants';
+import { Bio } from "../../data/constants";
+import { Call } from "@mui/icons-material";
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -16,7 +17,6 @@ const FooterContainer = styled.div`
   justify-content: center;
   //background: linear-gradient(100.26deg, rgba(0, 102, 255, 0.05) 42.33%, rgba(150, 0, 225, 0.05) 127.07%);
 `;
-
 
 const FooterWrapper = styled.footer`
   width: 100%;
@@ -53,7 +53,7 @@ const Nav = styled.nav`
 `;
 
 const NavLink = styled.a`
-color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.text_primary};
   text-decoration: none;
   font-size: 1.2rem;
   transition: color 0.2s ease-in-out;
@@ -100,33 +100,38 @@ function Footer() {
           <NavLink href="#education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon  id="contact-linkedin" href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-          <SocialMediaIcon  href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
-      
+          <SocialMediaIcon
+            id="contact-linkedin"
+            href={Bio.linkedin}
+            target="display"
+          >
+            <LinkedInIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.insta} target="display">
+            <InstagramIcon />
+          </SocialMediaIcon>
 
-          <SocialMediaIcon id="contact-github" href={Bio.github} target="display"><GitHubIcon /></SocialMediaIcon>
-
+          <SocialMediaIcon
+            id="contact-github"
+            href={Bio.github}
+            target="display"
+          >
+            <GitHubIcon />
+          </SocialMediaIcon>
         </SocialMediaIcons>
-      
-        
-        <Logo id="contact-email"><EmailIcon/>
-rasheedamaan111@gmail.com        </Logo>
-  <Copyright>
-          &copy; 2023 Kulsoom Rasheed. All rights reserved.
-        </Copyright>
-   
+        <Logo id="contact-email" style={{display:"flex", alignItems:"center", gap:5}}>
+          <Call />
+        +91-9305167223 </Logo>
+        <Logo id="contact-email" style={{display:"flex", alignItems:"center", gap:5}}>
+          <EmailIcon />
+          rasheedamaan111@gmail.com{" "}
+        </Logo>
+        <Copyright>&copy; 2023 Kulsoom Rasheed. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
 }
 
 export default Footer;
-
-
-
-
-
-
-
 
 //<Logo  id="contact-phone">+91-9305167223</Logo>

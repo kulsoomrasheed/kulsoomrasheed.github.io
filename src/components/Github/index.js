@@ -77,7 +77,7 @@ const TimelineSection = styled.div`
 
 const index = () => {
   return (
-    <Container id="contact">
+    <Container>
       <Title>Github Calender</Title>
       <Wrapper>
         <Title className="react-activity-calendar">

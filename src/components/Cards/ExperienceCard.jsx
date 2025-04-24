@@ -75,15 +75,15 @@ const Top = styled.div`
     gap: 12px
 `
 
-const Image = styled.img`
-    height: 50px;
-    background-color: #000;
-    border-radius: 10px;
-    margin-top: 4px;
-    @media only screen and (max-width: 768px){
-        height: 40px;
-    }
-`
+// const Image = styled.img`
+//     height: 50px;
+//     background-color: #000;
+//     border-radius: 10px;
+//     margin-top: 4px;
+//     @media only screen and (max-width: 768px){
+//         height: 40px;
+//     }
+// `
 
 const Body = styled.div`
     width: 100%;
