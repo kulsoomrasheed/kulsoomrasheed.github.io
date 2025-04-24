@@ -2,7 +2,9 @@ export const Bio = {
   name: "Kulsoom Rasheed",
   roles: [
     "Full Stack Developer",
-    "MERN Stack Developer"
+    "MERN Stack Developer",
+    "Frontend Developer",
+    "Backend Developer"
   ],
   about:"I am a motivated and adaptable individual, always eager to embrace new challenges. With an insatiable passion for learning, I am dedicated to delivering high-quality results. My positive attitude and growth mindset make me well-prepared to make a meaningful contribution and achieve great things. As a skilled MERN developer, I bring expertise in MongoDB, Express, React, and Node.js, which enhances my ability to tackle tech-driven projects with enthusiasm and innovation.",
   description:
@@ -144,109 +146,36 @@ export const skills = [
 ];
 
 export const experiences = [
+ 
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/D560BAQFDUKPSU8P0Lw/company-logo_200_200/0/1687947132305?e=1698278400&v=beta&t=cBF3SdszRLspmyvV-rHa1y4tdj_hjjivH7Xy0Z7kOD8",
-    role: "DevOps & Fullstack Engineering Intern",
-    company: "Flipr Inovations Pvt. Ltd.",
-    date: "Aug 2023 - July 2023",
-    desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
+    role: "Frontend Engineer",
+    company: "Galific Solutions",
+    date: "June 2024 - March 2025",
+    desc: "Built and maintained full-stack apps like an AI content creator, AI medical appointment app, and         Autonomous Digital Marketer. Developed Chrome extensions for scraping and UI injection. Created an app to track clothing site data via extension. Optimized app speed, fixed UI bugs, integrated auth systems, and built responsive UIs using React, Redux, Node.js, MongoDB, Chakra UI, and MUI.",
     skills: [
-      "Docker",
-      "Terraform",
-      "AWS",
-      "EC2",
-      "Portainer",
-      "Nginx",
+      "ReactJS",
+      "Redux",
+      "NodeJs",
+      "Material UI",
+      "HTML",
+      "CSS",
       "JavaScript",
       "TypeScript",
       "Node Js",
       "Next Js",
-    ],
+      'Redux Persist',
+      ' Redux',
+      ' Framer-motion',
+      'Tanstack/React-Query',
+      'Prompt Engineering',
+      'BitBucket',
+      'Chrome extensions'
 
-    doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
-  },
-  {
-    id: 0,
-    img: "https://media.licdn.com/dms/image/C560BAQFQb9_Lb3bZug/company-logo_200_200/0/1644414857251?e=1693440000&v=beta&t=7WqhIiUCg_0otFDwWn-O_SP-Z4Ftoe4be1WlnjYoESc",
-    role: "Frontend Engineer Intern",
-    company: "Neurobit",
-    date: "June 2023 - Present",
-    desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
     ],
     doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
   },
-  {
-    id: 1,
-    img: "https://media.licdn.com/dms/image/D560BAQFDUKPSU8P0Lw/company-logo_200_200/0/1687947132305?e=1698278400&v=beta&t=cBF3SdszRLspmyvV-rHa1y4tdj_hjjivH7Xy0Z7kOD8",
-    role: "Fullstack Externship",
-    company: "Flipr",
-    date: "June 2023 - July 2023",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Docker",
-      "AWS",
-      "MongoDB",
-    ],
-  },
-  {
-    id: 2,
-    img: "https://media.licdn.com/dms/image/C510BAQGSObrO0QPlMQ/company-logo_200_200/0/1555704980721?e=1692835200&v=beta&t=FjOWcUVVNzqFbTmmp0iXQkv5keBQC5lxIQ7K6rmMSMQ",
-    role: "Open Source Contributor ",
-    company: "GirlScript Summer of Code",
-    date: "May 2023 - Present",
-    desc: "Contributing to different open-source projects and learn from industry experts",
-    doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
-  },
-  {
-    id: 3,
-    img: "https://media.licdn.com/dms/image/D4D0BAQGfGQHEJt8gPA/company-logo_100_100/0/1666002815185?e=1692230400&v=beta&t=c4obZda4Uh9q6vOcmCbxjoSiExvbvYwEHUlgdY0tU-4",
-    role: "Android Developer",
-    company: "DSC KIIT",
-    date: "Nov2021 - Present",
-    desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
-    skills: [
-      "Leadership",
-      "Mobile Application Development",
-      "Kotlin",
-      "XML",
-      "Figma",
-    ],
-  },
-  {
-    id: 4,
-    img: "https://media.licdn.com/dms/image/C4D0BAQH4od9HG2K7bw/company-logo_100_100/0/1661484397513?e=1692230400&v=beta&t=IW-eebE0PpFxqZ8Q3UCYYtlAokbhAEqsNePBv2Pmg18",
-    role: "Android Developer Intern",
-    company: "Rudraksha Welffare Foundation",
-    date: "June 2021 - Oct 2021",
-    desc: "As an Android Developer Intern at Rudraksha Welfare Foundation from June 2021 to October 2021, I gained valuable hands-on experience in application development. During my tenure, I contributed to the development of the application's back-end cloud functions using Firebase and implemented a front-end with the MVVM structure, which was designed using Figma. I also added a one-to-one video call feature, conceptualized new features, and optimized app performance. This internship helped me enhance my skills in Android development and gave me an opportunity to work in a collaborative team environment.",
-    skills: [
-      "Android",
-      "Java",
-      "Kotlin",
-      "XML",
-      "Node Js",
-      "Cloud Firestore",
-      "Firebase",
-      "Figma",
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
-  },
+
 ];
 
 export const education = [
@@ -337,7 +266,7 @@ export const projects = [
     "Our collaborative project, an eBay clone, shows our team's ability to replicate core e-commerce functions in a short time. This project involved five members and was completed in just 4-5 days. We successfully recreated the essence of eBay's online marketplace, including features like product displays, price negotiations, and safe, hassle-free transactions. Our commitment to detail and teamwork shines through this project, offering a user-friendly and visually appealing shopping experience.",
     image:
       "https://user-images.githubusercontent.com/110609653/229442412-bbb0b9be-09ee-4afb-becc-833f072924fb.png",
-    tags: ["React Js", "Axios","MongoDb", , "Node Js", "Express Js", "Redux"],
+    tags: ["React Js", "Axios","MongoDb" , "Node Js", "Express Js", "Redux"],
     category: "E-Commerce app",
     github: "https://github.com/TejasPedge/kaput-boundary-7997",
     webapp: "https://smart-cart-tejaspedge.vercel.app/",
