@@ -98,6 +98,7 @@ function Footer() {
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
+          <NavLink href="#experience">Experience</NavLink>
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon
@@ -107,9 +108,9 @@ function Footer() {
           >
             <LinkedInIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display">
+          {/* <SocialMediaIcon href={Bio.insta} target="display">
             <InstagramIcon />
-          </SocialMediaIcon>
+          </SocialMediaIcon> */}
 
           <SocialMediaIcon
             id="contact-github"
