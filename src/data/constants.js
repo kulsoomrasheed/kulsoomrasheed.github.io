@@ -195,7 +195,7 @@ export const experiences = [
       'Chrome extensions'
 
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+    doc: "https://drive.google.com/file/d/1Qv1JDbg41o49EEoy9Lj6lP4qsediEjuH/view?usp=sharing",
   },
 
 ];
