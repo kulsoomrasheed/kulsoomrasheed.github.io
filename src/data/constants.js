@@ -12,7 +12,7 @@ export const Bio = {
   github: "https://github.com/kulsoomrasheed",
   email:'rasheedamaan111@gmail.com',
   resume:
-    'https://drive.google.com/file/d/1in_mHRQzf_FgfHj6xoqLKlc_hqQ57gG8/view?usp=sharing',
+    'https://drive.google.com/file/d/1xIXmvPPiDKpyvmUeIsmcxv-cm21vgUaD/view?usp=sharing',
   linkedin: "https://www.linkedin.com/in/kulsoom-rasheed-a5b5a0278/",
   insta: "https://www.instagram.com/kulsoomrasheed20/",
 };
