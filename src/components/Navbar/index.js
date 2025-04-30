@@ -10,10 +10,20 @@ import styled, { useTheme } from 'styled-components';
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const theme = useTheme()
+
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = 'KulsoomRasheed_Resume.pdf';
+    link.download = 'KulsoomRasheed_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <Nav id="nav-menu">
       <NavbarContainer>
-        <NavLogo className="nav-link home" to="/">
+        <NavLogo className="nav-link home"to="/">
           <a
             style={{
               display: "flex",
@@ -23,7 +33,7 @@ const Navbar = () => {
               cursor: "pointer",
             }}
           >
-            <DiCssdeck size="3rem" /> <Span>Kulsoom Rasheed</Span>
+            <DiCssdeck size="3rem" /> <Span className="nav-link home"to="/">Kulsoom Rasheed</Span>
           </a>
         </NavLogo>
         <MobileIcon>
@@ -34,9 +44,9 @@ const Navbar = () => {
           />
         </MobileIcon>
         <NavItems>
-          <NavLink className="nav-link home" href="/">
+          {/* <NavLink className="nav-link home" href="/">
             Home
-          </NavLink>
+          </NavLink> */}
           <NavLink className="nav-link about" href="#about">
             About
           </NavLink>
@@ -49,24 +59,24 @@ const Navbar = () => {
 
           <NavLink href="#education">Education</NavLink>
           <NavLink className="nav-link experience" href="#experience">
-          Experience
+            Experience
           </NavLink>
           <NavLink className="nav-link contact" href="#contact">
             Contact
           </NavLink>
         </NavItems>
 
-        <ButtonContainer style={{gap:8}}>
-          <GitHubButton href={Bio.resume} target="_blank">
+        <ButtonContainer style={{ gap: 8 }}>
+          <GitHubButton href={Bio.resume} target="_blank" onClick={handleDownload}>
             Resume
           </GitHubButton>
-               <GitHubButton href={Bio.github} target="_blank" style={{gap:5}}>
-           
-               <GitHubIcon />
-           Profile
+          <GitHubButton href={Bio.github} target="_blank" style={{ gap: 5 }}>
+
+            <GitHubIcon />
+            Profile
           </GitHubButton>
         </ButtonContainer>
-        
+
 
         {isOpen && (
           <MobileMenu isOpen={isOpen}>
